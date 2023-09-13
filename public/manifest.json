@@ -1,12 +1,15 @@
 {
-  "short_name": "My Extension",
-  "name": "My Extension",
-  "version": "1.1",
+  "short_name": "Medical Copilot",
+  "name": "Medical Copilot",
+  "version": "0.1",
   "manifest_version": 3,
   "background": {
     "service_worker": "app/background.js"
   },
   "action": {},
+  "icons": {
+    "128": "logo128.png"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
